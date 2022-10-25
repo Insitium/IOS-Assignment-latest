@@ -20,11 +20,18 @@ enum Operation:String {
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ResultLabel: UITextField!
     //result label
-    @IBOutlet weak var ResultLabel: UILabel!
     
+    @IBOutlet weak var landScapeResultLabel: UILabel!
     
     var runningNumber = ""
+    var LandscapeRunningNumber = ""
+    var landscapeLHS = ""
+    var landscapeRHS = ""
+    var landscapeResult = ""
+    var landscapeCurrentOperation:Operation = .Null
+    
     var LHS = ""
     var RHS = ""
     var result = ""
@@ -36,7 +43,6 @@ class ViewController: UIViewController {
         
     }
     //Event handlers
-    
     @IBAction func numberPressed(_ sender: UIButton) {
         runningNumber += "\(sender.tag)"
         print(runningNumber)
@@ -44,9 +50,9 @@ class ViewController: UIViewController {
     }
    
     @IBAction func landscapeNumberButtonPressed(_ sender: UIButton) {
-        runningNumber += "\(sender.tag)"
-        print(runningNumber)
-        ResultLabel.text = runningNumber
+        LandscapeRunningNumber += "\(sender.tag)"
+        print(LandscapeRunningNumber)
+        landScapeResultLabel.text = LandscapeRunningNumber
         
     }
     
@@ -57,8 +63,13 @@ class ViewController: UIViewController {
         result = ""
         currentOperation = .Null
         ResultLabel.text = "0"
+        LandscapeRunningNumber = ""
+        landscapeLHS = ""
+        landscapeRHS = ""
+        landscapeResult = ""
+        landscapeCurrentOperation = .Null
+        landScapeResultLabel.text = "0"
     }
-    
     
     @IBAction func dotPressed(_ sender: UIButton) {
         
@@ -66,7 +77,11 @@ class ViewController: UIViewController {
         ResultLabel.text = runningNumber
     }
     
-    
+    @IBAction func LandscapeDotPressed(_ sender: UIButton) {
+        LandscapeRunningNumber += "."
+        landScapeResultLabel.text = LandscapeRunningNumber
+    }
+   
     @IBAction func backPressed(_ sender: UIButton) {
         runningNumber = String(runningNumber.dropLast(1))
              ResultLabel.text = runningNumber
@@ -76,38 +91,112 @@ class ViewController: UIViewController {
              }
     }
     
+    @IBAction func LandscapeBackPressed(_ sender: UIButton) {
+        LandscapeRunningNumber=String(LandscapeRunningNumber.dropLast(1))
+        landScapeResultLabel.text = LandscapeRunningNumber
+        
+        if LandscapeRunningNumber.isEmpty{
+            LandscapeRunningNumber = "0"
+        }
+    }
     
+ 
     @IBAction func equalPressed(_ sender: UIButton) {
         operation(operation: currentOperation)
     }
     
+    @IBAction func landscapeEqualPressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: landscapeCurrentOperation)
+    }
     
     @IBAction func addPressed(_ sender: UIButton) {
         operation(operation: .Add)
     }
     
+    @IBAction func landscapeAddPressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: .Add)
+    }
+    
+    
     @IBAction func substractPressed(_ sender: UIButton) {
         operation(operation: .Subtract)
     }
+    
+    @IBAction func landscapeSubstractPressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: .Subtract)
+    }
+    
     
     @IBAction func multiplyPressed(_ sender: UIButton) {
         operation(operation: .Multiply)
     }
     
+    @IBAction func landscapeMultiplyPressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: .Multiply)
+    }
+    
+    
+    
     @IBAction func dividePressed(_ sender: UIButton) {
         operation(operation: .Divide)
     }
     
-    @IBAction func percentPressed(_ sender: UIButton){
-        
-        
-       
+    @IBAction func landscapeDividePressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: .Divide)
     }
+    
+    
+    @IBAction func percentPressed(_ sender: UIButton){
+    }
+    
+    @IBAction func landscapePercentPressed(_ sender: UIButton) {
+    }
+    
     
     @IBAction func plusMinusPressed(_ sender: Any) {
        runningNumber = String( ResultLabel.text!)
                           runningNumber = "-" + runningNumber
                           ResultLabel.text = runningNumber
+    }
+    
+    
+    @IBAction func landscapePlusMinusPressed(_ sender: UIButton) {
+        LandscapeRunningNumber = String( landScapeResultLabel.text!)
+        LandscapeRunningNumber = "-" + LandscapeRunningNumber
+        landScapeResultLabel.text = LandscapeRunningNumber
+    }
+    
+    
+    func landscapeOperation(landscapeOperation: Operation){
+        if landscapeCurrentOperation != .Null {
+            if LandscapeRunningNumber != ""{
+                landscapeRHS = LandscapeRunningNumber
+                LandscapeRunningNumber = ""
+                
+                if landscapeCurrentOperation == .Add{
+                    landscapeResult = "\(Double(landscapeLHS)! + Double(landscapeRHS)!)"
+                }else if landscapeCurrentOperation == .Subtract {
+                    landscapeResult = "\(Double(landscapeLHS)! - Double(landscapeRHS)!)"
+                }else if landscapeCurrentOperation == .Multiply {
+                    landscapeResult = "\(Double(landscapeLHS)! * Double(landscapeRHS)!)"
+                }else if landscapeCurrentOperation == .Divide {
+                    landscapeResult = "\(Double(landscapeLHS)! / Double(landscapeRHS)!)"
+            
+                        
+
+                }
+                landscapeLHS = landscapeResult
+                if (Double(landscapeResult)!.truncatingRemainder(dividingBy: 1) == 0){
+                    landscapeResult = "\(Int(Double(landscapeResult)!))"
+                }
+                landScapeResultLabel.text = landscapeResult
+            }
+            landscapeCurrentOperation = landscapeOperation
+        }else {
+            landscapeLHS = runningNumber
+            LandscapeRunningNumber = ""
+            landscapeCurrentOperation = landscapeOperation
+        }
     }
     
     func operation(operation: Operation){

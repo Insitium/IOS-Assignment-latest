@@ -43,7 +43,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2tn-z4-m1e"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjd-Eu-rl9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rw0-xJ-WeU">
@@ -67,7 +67,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t5z-pb-UEl"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X4A-oY-5SY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u9-vs-70P">
@@ -91,7 +91,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wiD-OK-uut"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIU-V7-5fV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSk-ec-X62">
@@ -115,7 +115,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAC-9W-in4"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uNQ-Ke-4mJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ak9-WE-DBA">
@@ -139,7 +139,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DAu-kA-X4G"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e6T-VT-dc4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhZ-g9-tww">
@@ -163,7 +163,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tQF-Et-8nP"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QGv-we-3Gj"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tQe-47-J37">
@@ -187,7 +187,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w5L-lL-FOW"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8bY-Iq-8sE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gyp-lL-04a">
@@ -210,7 +210,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yDH-gJ-MnR"/>
+                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FXH-hW-3x1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6y-Ei-uuz">
@@ -233,7 +233,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="percentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RWV-dw-U87"/>
+                                    <action selector="percentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aku-5A-WnV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdV-Us-nzx">
@@ -257,7 +257,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ACV-Zw-FJq"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CSA-gR-j6w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VwZ-bo-moc">
@@ -281,7 +281,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gsb-cD-dSH"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jZi-Je-4SK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9w1-Xr-tAH">
@@ -304,7 +304,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z3V-AO-gKl"/>
+                                    <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lc9-S5-79L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PM6-mH-6xG">
@@ -327,7 +327,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="substractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Lx-43-Lbb"/>
+                                    <action selector="substractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Asu-bJ-Jv9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewl-Uf-1lb">
@@ -350,7 +350,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VLB-UC-793"/>
+                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2W-Yw-cgq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B6W-bL-I1y">
@@ -373,7 +373,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w09-LS-DyN"/>
+                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RWx-7e-zfK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e4r-vk-mLc">
@@ -396,7 +396,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qfp-UO-0Lm"/>
+                                    <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0fN-mZ-OWE"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="op bg" translatesAutoresizingMaskIntoConstraints="NO" id="moE-w6-oEF">
@@ -443,7 +443,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="dotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRe-G6-Jht"/>
+                                    <action selector="dotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5v-kj-Zq9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jka-SW-1Tl">
@@ -466,7 +466,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="plusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lan-X8-5NE"/>
+                                    <action selector="plusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8gC-yj-rbo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N70-IV-ecA">
@@ -489,7 +489,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hK1-xt-Lic"/>
+                                    <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I4M-hc-qaT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2m5-cg-jSz">
@@ -513,7 +513,7 @@
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JuG-Lh-Z0l"/>
+                                    <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Trc-KM-x1L"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="tilted photo for buttons" translatesAutoresizingMaskIntoConstraints="NO" id="9Kv-Cu-yWF">
@@ -572,7 +572,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2o-e5-EOU"/>
+                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ND-2q-xiN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-dV-Qj5">
@@ -596,6 +596,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="LandscapeBackPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PF6-89-P7K"/>
                                     <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bk9-gJ-mf6"/>
                                 </connections>
                             </button>
@@ -620,6 +621,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapePercentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="818-17-veX"/>
                                     <action selector="percentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cbe-ud-oI5"/>
                                 </connections>
                             </button>
@@ -645,6 +647,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RZZ-9I-Rva"/>
+                                    <action selector="landscapeDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="etO-8F-ulr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xog-su-odv">
@@ -816,6 +819,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="LandscapeDotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efC-nM-UaV"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1df-1d-OvG"/>
                                 </connections>
                             </button>
@@ -1382,6 +1386,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ffH-AW-C7Q"/>
                                     <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8jr-su-ESa"/>
                                 </connections>
                             </button>
@@ -1407,6 +1412,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ac5-SY-y6w"/>
+                                    <action selector="landscapeAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aji-b1-iQK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRA-tP-PQb">
@@ -1430,6 +1436,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeSubstractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x1a-cy-07f"/>
                                     <action selector="substractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ous-4S-Y8t"/>
                                 </connections>
                             </button>
@@ -1455,6 +1462,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sP8-8h-Uaq"/>
+                                    <action selector="landscapeEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWL-cB-w5x"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlU-O9-Js0">
@@ -1505,13 +1513,14 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NuC-Cs-BfX"/>
+                                    <action selector="landscapePlusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYP-R2-pkS"/>
                                     <action selector="plusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wB3-Qv-nAn"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxr-54-Cjq">
                                 <rect key="frame" x="83" y="28" width="656" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1520,7 +1529,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="ResultLabel" destination="BIk-bR-WdX" id="Icd-eh-iwB"/>
+                        <outlet property="ResultLabel" destination="BIk-bR-WdX" id="9jR-KB-ErU"/>
+                        <outlet property="landScapeResultLabel" destination="Uxr-54-Cjq" id="glA-q9-2Bn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

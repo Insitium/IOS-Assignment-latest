@@ -146,6 +146,18 @@ class ViewController: UIViewController {
         operation(operation: .Divide)
     }
     
+    @IBAction func landscapepi(_ sender: UIButton) {
+        operation(operation: .Pi)
+    }
+    @IBAction func landscaperand(_ sender: UIButton) {
+        operation(operation: .random)
+    }
+    @IBAction func landscapesqrt(_ sender: UIButton) {
+        operation(operation: .sqrt)
+    }
+    @IBAction func landscapeSin(_ sender: UIButton) {
+        operation(operation: .sin)
+    }
     @IBAction func landscapeDividePressed(_ sender: UIButton) {
         landscapeOperation(landscapeOperation: .Divide)
     }
@@ -193,7 +205,7 @@ class ViewController: UIViewController {
                 }else if landscapeCurrentOperation == .Pi{
                     landscapeResult = "\(Double(landscapeLHS)! / Double(100) + Double(3.14))"
                 }else if landscapeCurrentOperation == .sqrt{
-                    landscapeResult = "\(Double(landscapeLHS)! * Double(1/2))"
+                    landscapeResult = "\(Double(landscapeLHS)! * Double(landscapeLHS)! / Double(2))"
                 }else if landscapeCurrentOperation == .random{
                     landscapeResult = "\(Double(landscapeLHS)!)"
                 }else if landscapeCurrentOperation == .sin{
@@ -229,16 +241,7 @@ class ViewController: UIViewController {
                     result = "\(Double(LHS)! / Double(RHS)!)"
                 }else if currentOperation == .Percent {
                     result = "\(Double(LHS)! / Double(100))"
-                }else if currentOperation == .Pi {
-                    result = "\(Double(LHS)! / Double(100) + Double(3.14))"
-                }else if currentOperation == .sqrt {
-                    result = "\(Double(LHS)! * Double(1/2))"
-
-                }else if currentOperation == .random {
-                    result = "\(Double(LHS)!)"
-                    
-                }else if currentOperation == .sin {
-                    result = "\(Double(LHS)! / Double(180) + Double(3.14))"
+                
                 }
                 LHS = result
                 if (Double(result)!.truncatingRemainder(dividingBy: 1) == 0){

@@ -785,6 +785,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscaperand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Sq-kO-2Yi"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0H4-Fc-r6G"/>
                                 </connections>
                             </button>
@@ -929,6 +930,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapepi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="egH-vJ-3ug"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKT-6f-vBi"/>
                                 </connections>
                             </button>
@@ -1065,6 +1067,8 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeSin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5nv-ED-Zdc"/>
+                                    <action selector="landscapesqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xsa-TL-cOz"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ek0-I3-wlE"/>
                                 </connections>
                             </button>
@@ -1082,6 +1086,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapesqrt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ej-zu-s51"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hfa-bS-YPX"/>
                                 </connections>
                             </button>

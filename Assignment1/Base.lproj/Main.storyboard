@@ -551,23 +551,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rc5-98-ROm">
-                                <rect key="frame" x="62" y="38" width="692" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="0">
-                                        <attributes>
-                                            <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="Helvetica"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits"/>
-                                <imageReference key="background" image="cube.transparent" catalog="system" symbolScale="large"/>
-                                <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4jc-1l-niy">
                                 <rect key="frame" x="497" y="113" width="48" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -589,7 +572,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kc1-V3-ufX"/>
+                                    <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N2o-e5-EOU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-dV-Qj5">
@@ -613,7 +596,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pyu-jJ-nr8"/>
+                                    <action selector="backPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bk9-gJ-mf6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFe-a6-ju3">
@@ -637,7 +620,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="percentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bEJ-gz-fgq"/>
+                                    <action selector="percentPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cbe-ud-oI5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqq-7o-uEG">
@@ -661,7 +644,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeZ-YC-Wji"/>
+                                    <action selector="dividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RZZ-9I-Rva"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xog-su-odv">
@@ -732,7 +715,7 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3gV-4b-Z4x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odO-QI-env">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odO-QI-env">
                                 <rect key="frame" x="640" y="262" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -746,6 +729,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rAY-5z-iks"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dZf-eD-JgT"/>
                                 </connections>
                             </button>
@@ -800,7 +784,7 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0H4-Fc-r6G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4s-tk-rf2">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4s-tk-rf2">
                                 <rect key="frame" x="640" y="212" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -814,6 +798,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nTK-6t-dzI"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LzU-IT-YlG"/>
                                 </connections>
                             </button>
@@ -834,7 +819,7 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1df-1d-OvG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ro6-G4-A9u">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ro6-G4-A9u">
                                 <rect key="frame" x="570" y="262" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -848,10 +833,11 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZEU-cP-pFd"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j9g-HS-uEK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zix-mG-gtH">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zix-mG-gtH">
                                 <rect key="frame" x="570" y="212" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -865,10 +851,11 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1xk-qW-4if"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6UA-97-Fku"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFx-Os-ggk">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFx-Os-ggk">
                                 <rect key="frame" x="497" y="312" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -882,10 +869,11 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yhC-7o-suE"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bkm-Yc-BhR"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qu-Kf-ZaO">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qu-Kf-ZaO">
                                 <rect key="frame" x="497" y="212" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -899,10 +887,11 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gn7-pV-U1N"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGf-5p-ici"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPb-ii-Zao">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPb-ii-Zao">
                                 <rect key="frame" x="497" y="262" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -916,6 +905,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F5C-np-rgM"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cHL-4u-omr"/>
                                 </connections>
                             </button>
@@ -1123,7 +1113,7 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xL-BH-y7p"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hga-Eu-Mbd">
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hga-Eu-Mbd">
                                 <rect key="frame" x="640" y="162" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1137,6 +1127,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BhI-h1-c7C"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oi0-Qx-7V3"/>
                                 </connections>
                             </button>
@@ -1157,7 +1148,7 @@
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QiC-XU-izf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-N0-ugQ">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8tv-N0-ugQ">
                                 <rect key="frame" x="570" y="162" width="48" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1171,6 +1162,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fnZ-NC-aVd"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="J3z-Sf-LCr"/>
                                 </connections>
                             </button>
@@ -1188,6 +1180,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
+                                    <action selector="landscapeNumberButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dsi-mt-AyS"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNM-Sg-ibB"/>
                                 </connections>
                             </button>
@@ -1389,7 +1382,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xdr-wk-fj8"/>
+                                    <action selector="multiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8jr-su-ESa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sft-hk-4r4">
@@ -1413,7 +1406,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b0M-Te-OjL"/>
+                                    <action selector="addPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ac5-SY-y6w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRA-tP-PQb">
@@ -1437,7 +1430,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="substractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DFb-Vv-vgC"/>
+                                    <action selector="substractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ous-4S-Y8t"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kqd-5q-e0C">
@@ -1461,7 +1454,7 @@
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
-                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kxu-YL-QqG"/>
+                                    <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sP8-8h-Uaq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlU-O9-Js0">
@@ -1502,26 +1495,26 @@
                                 <rect key="frame" x="640" y="313" width="48" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="filled" title="+/-" cornerStyle="capsule">
                                     <backgroundConfiguration key="background">
                                         <color key="backgroundColor" red="0.1249150708" green="0.33150899410000001" blue="0.93969482179999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </backgroundConfiguration>
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="=">
-                                            <attributes>
-                                                <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="36" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
                                 </buttonConfiguration>
                                 <variation key="heightClass=compact-widthClass=compact" hidden="NO"/>
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NuC-Cs-BfX"/>
+                                    <action selector="plusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wB3-Qv-nAn"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uxr-54-Cjq">
+                                <rect key="frame" x="83" y="28" width="656" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     //result label
     @IBOutlet weak var ResultLabel: UILabel!
     
+    
     var runningNumber = ""
     var LHS = ""
     var RHS = ""
@@ -38,10 +39,16 @@ class ViewController: UIViewController {
     
     @IBAction func numberPressed(_ sender: UIButton) {
         runningNumber += "\(sender.tag)"
-    
+        print(runningNumber)
         ResultLabel.text = runningNumber
     }
    
+    @IBAction func landscapeNumberButtonPressed(_ sender: UIButton) {
+        runningNumber += "\(sender.tag)"
+        print(runningNumber)
+        ResultLabel.text = runningNumber
+        
+    }
     
     @IBAction func allClearPressed(_ sender: UIButton) {
         runningNumber = ""

@@ -573,6 +573,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="allClearPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ND-2q-xiN"/>
+                                    <action selector="landscapeOperatorPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bqI-pQ-W0C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIG-dV-Qj5">
@@ -820,6 +821,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="LandscapeDotPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efC-nM-UaV"/>
+                                    <action selector="landscapeOperatorPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AFl-dP-ol5"/>
                                     <action selector="numberPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1df-1d-OvG"/>
                                 </connections>
                             </button>
@@ -1513,6 +1515,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" hidden="YES"/>
                                 <connections>
                                     <action selector="equalPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NuC-Cs-BfX"/>
+                                    <action selector="landscapeOperatorPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W8G-EQ-QLz"/>
                                     <action selector="landscapePlusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYP-R2-pkS"/>
                                     <action selector="plusMinusPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wB3-Qv-nAn"/>
                                 </connections>

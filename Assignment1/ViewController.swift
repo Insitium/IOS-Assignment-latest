@@ -15,6 +15,11 @@ enum Operation:String {
     case Subtract = "-"
     case Divide = "/"
     case Multiply = "*"
+    case Percent = "%"
+    case Pi = "π"
+    case sqrt = "2√x"
+    case random = "rand"
+    case sin = "sin"
     case Null = "Null"
 }
 
@@ -147,9 +152,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func percentPressed(_ sender: UIButton){
+        operation(operation: .Percent)
     }
     
     @IBAction func landscapePercentPressed(_ sender: UIButton) {
+        landscapeOperation(landscapeOperation: .Percent)
     }
     
     
@@ -181,11 +188,16 @@ class ViewController: UIViewController {
                     landscapeResult = "\(Double(landscapeLHS)! * Double(landscapeRHS)!)"
                 }else if landscapeCurrentOperation == .Divide {
                     landscapeResult = "\(Double(landscapeLHS)! / Double(landscapeRHS)!)"
-            
-                        
-                    
-                    //io am adding a comment here
-
+                }else if landscapeCurrentOperation == .Percent{
+                    landscapeResult = "\(Double(landscapeLHS)! / Double(100))"
+                }else if landscapeCurrentOperation == .Pi{
+                    landscapeResult = "\(Double(landscapeLHS)! / Double(100) + Double(3.14))"
+                }else if landscapeCurrentOperation == .sqrt{
+                    landscapeResult = "\(Double(landscapeLHS)! * Double(1/2))"
+                }else if landscapeCurrentOperation == .random{
+                    landscapeResult = "\(Double(landscapeLHS)!)"
+                }else if landscapeCurrentOperation == .sin{
+                    landscapeResult = "\(Double(landscapeLHS)! / Double(180) * Double(3.14) )"
                 }
                 landscapeLHS = landscapeResult
                 if (Double(landscapeResult)!.truncatingRemainder(dividingBy: 1) == 0){
@@ -215,9 +227,18 @@ class ViewController: UIViewController {
                     result = "\(Double(LHS)! * Double(RHS)!)"
                 }else if currentOperation == .Divide {
                     result = "\(Double(LHS)! / Double(RHS)!)"
-            
-                        
+                }else if currentOperation == .Percent {
+                    result = "\(Double(LHS)! / Double(100))"
+                }else if currentOperation == .Pi {
+                    result = "\(Double(LHS)! / Double(100) + Double(3.14))"
+                }else if currentOperation == .sqrt {
+                    result = "\(Double(LHS)! * Double(1/2))"
 
+                }else if currentOperation == .random {
+                    result = "\(Double(LHS)!)"
+                    
+                }else if currentOperation == .sin {
+                    result = "\(Double(LHS)! / Double(180) + Double(3.14))"
                 }
                 LHS = result
                 if (Double(result)!.truncatingRemainder(dividingBy: 1) == 0){
